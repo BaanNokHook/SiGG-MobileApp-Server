@@ -1,0 +1,15 @@
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\bin\Debug\net6.0\SiGG-MobileApp-Server.exe
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\bin\Debug\net6.0\SiGG-MobileApp-Server.deps.json
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\bin\Debug\net6.0\SiGG-MobileApp-Server.runtimeconfig.json
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\bin\Debug\net6.0\SiGG-MobileApp-Server.dll
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\bin\Debug\net6.0\SiGG-MobileApp-Server.pdb
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.csproj.AssemblyReference.cache
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.AssemblyInfoInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.AssemblyInfo.cs
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.csproj.CoreCompileInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.dll
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\refint\SiGG-MobileApp-Server.dll
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.pdb
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\SiGG-MobileApp-Server.genruntimeconfig.cache
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\Debug\net6.0\ref\SiGG-MobileApp-Server.dll
