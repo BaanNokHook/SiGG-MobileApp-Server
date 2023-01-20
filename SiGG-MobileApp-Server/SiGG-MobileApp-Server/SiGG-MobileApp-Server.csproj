@@ -8,4 +8,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CoreServices\ControllerManagement\" />
+    <Folder Include="CoreServices\CoreServer\" />
+    <Folder Include="CoreServices\DIManagement\" />
+    <Folder Include="CoreServices\DomainModelsManagement\" />
+    <Folder Include="CoreServices\EFIManagement\" />
+    <Folder Include="CoreServices\InterceptorManagement\" />
+    <Folder Include="CoreServices\MemoryResponseStorage\" />
+    <Folder Include="CoreServices\ProxyServices\" />
+    <Folder Include="CoreServices\SecurityManagement\" />
+    <Folder Include="CoreServices\TelemetryManagement\" />
+  </ItemGroup>
+
 </Project>
