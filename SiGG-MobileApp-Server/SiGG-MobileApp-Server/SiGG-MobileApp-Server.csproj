@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CoreServices\ControllerManagement\" />
     <Folder Include="CoreServices\CoreServer\" />
     <Folder Include="CoreServices\DIManagement\" />
     <Folder Include="CoreServices\DomainModelsManagement\" />
