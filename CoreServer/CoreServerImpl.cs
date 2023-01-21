@@ -1,4 +1,4 @@
-// DT Software //
+// Satellite-Communication-Server //
 
 using SocketAppServer.CoreServices.CLIHost;
 using SocketAppServer.CoreServices.Logging;

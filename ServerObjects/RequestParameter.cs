@@ -1,4 +1,4 @@
-// DT Software //
+// Satellite-Communication-Server //
 
 namespace SocketAppServer.ServerObjects
 {

@@ -1,4 +1,4 @@
-// DT Software //
+// Satellite-Communication-Server //
 
 using System;
 using System.Threading.Tasks;
