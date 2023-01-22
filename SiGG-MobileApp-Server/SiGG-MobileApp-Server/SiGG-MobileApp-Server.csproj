@@ -8,9 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="CoreServices\SecurityManagement\" />
-    <Folder Include="CoreServices\TelemetryManagement\" />
-  </ItemGroup>
-
 </Project>
