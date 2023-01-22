@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CoreServices\InterceptorManagement\" />
     <Folder Include="CoreServices\MemoryResponseStorage\" />
     <Folder Include="CoreServices\ProxyServices\" />
     <Folder Include="CoreServices\SecurityManagement\" />
