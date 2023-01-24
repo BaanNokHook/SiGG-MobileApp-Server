@@ -12,17 +12,17 @@ namespace SiGG_MobileApp_Server.Server
     {
         private List<SettingData> m_allSettingData;
         private SiteProductKeyRegisConfiguration m_siteProductKeyRegisNode;
-        private List<ServiceConfiguration> m_allServicesNodes;   
+        private List<ServiceConfiguration> m_allServicesNodes;
 
         public ComputerConfiguration()
         {
             m_allSettingData = new List<SettingData>();
 
-            //m_siteProductKeyRegisNode = new SiteProductKeyRegisConfiguration();   
+            m_siteProductKeyRegisNode = new SiteProductKeyRegisConfiguration();
 
             m_allServicesNodes = new List<ServiceConfiguration>();
 
-            LoadAllSettingData();   
+            LoadAllSettingData();
         }
 
         public void LoadAllSettingData()
@@ -33,28 +33,28 @@ namespace SiGG_MobileApp_Server.Server
 
             SettingData settingData = null;
 
-            //#region Site Product Key Registration Node
-            //settingData = new SettingData(ConfigManager.Instance.SITE_PRODUCT_KEY_REGIS_NODE_NAME, "", "Site Product Key Registration", "", "", FieldStaus.NotSet, FieldShow.Both, false, false);
-            //m_allSettingData.Add(settingData);
-            //#endregion
+            #region Site Product Key Registration Node
+            settingData = new SettingData(ConfigManager.Instance.SITE_PRODUCT_KEY_REGIS_NODE_NAME, "", "Site Product Key Registration", "", "", FieldStaus.NotSet, FieldShow.Both, false, false);
+            m_allSettingData.Add(settingData);
+            #endregion
 
             #region All Services Node 
-            bool isEnableMasterSlave = ConfigManager.Instance.IsEnableMasterSlave();   
+            bool isEnableMasterSlave = ConfigManager.Instance.IsEnableMasterSlave();
 
             for (int i = 0; i < m_allServicesNodes.Count; i++)
             {
-                ServiceConfiguration service = m_allServicesNodes[i];   
+                ServiceConfiguration service = m_allServicesNodes[i];
 
                 if (service != null)
                 {
                     if (isEnableMasterSlave)
-                    { 
+                    {
                         if (service.GetServiceName() == ConfigManager.Instance.GetMasterInstanceServiceName())
                         {
                             #region Master Instance
                             if (ConfigManager.Instance.GetServiceStatus(service.GetServiceName()) == "Started")
                             {
-                                settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStatus.Inactive_Started_MasterSlaveService, FieldShow.Both, false, false);   
+                                settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStatus.Inactive_Started_MasterSlaveService, FieldShow.Both, false, false);
                             }
                             else
                             {
@@ -69,14 +69,14 @@ namespace SiGG_MobileApp_Server.Server
                                 #region Slave Instance
                                 if (ConfigManager.Instance.GetServiceStatus(service.GetServiceName()) == "Started")
                                 {
-                                    settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service, GetServiceName()), "", "", FieldStatus.Inactive_Started_MasterSlaveService, FieldShow.Both, false, false);      
+                                    settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service, GetServiceName()), "", "", FieldStatus.Inactive_Started_MasterSlaveService, FieldShow.Both, false, false);
                                 }
                                 else
                                 {
-                                    settingData = new SettingData()service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStatus.Inactive_Stoped_MasterSlaveService, FieldShow.Both, false, false);  
-                                }
-                                #endregion
-                            }
+                                    settingData = new SettingData()service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStatus.Inactive_Stoped_MasterSlaveService, FieldShow.Both, false, false);
+        }
+        #endregion
+    }
                             else 
                             {
                                 #region Normal Instance
@@ -85,71 +85,71 @@ namespace SiGG_MobileApp_Server.Server
                                     settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Started_Service, FieldShow.Both, false, false);
                                 }
                                 else
-                                {
-                                    settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Stoped_Service, FieldShow.Both, false, false);
-                                }
+{
+    settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Stoped_Service, FieldShow.Both, false, false);
+}
                                  #  endregion
                             
                         }
                     }
                     else
-                    {
-                        #region Normal Instance
-                        if (ConfigManager.Instance.GetServiceStatus(service.GetServiceName()) == "Started")
-                        {
-                            settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Started_Service, FieldShow.Both, false, false);
-                        }
-                        else
-                        {
-                            settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Stoped_Service, FieldShow.Both, false, false);
-                        }
-                        #endregion
-                    }
+{
+    #region Normal Instance
+    if (ConfigManager.Instance.GetServiceStatus(service.GetServiceName()) == "Started")
+    {
+        settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Started_Service, FieldShow.Both, false, false);
+    }
+    else
+    {
+        settingData = new SettingData(service.GetServiceName(), "", ConfigManager.Instance.GetServiceDisplayNameAndStatus(service.GetServiceName()), "", "", FieldStaus.Inactive_Stoped_Service, FieldShow.Both, false, false);
+    }
+    #endregion
+}
 
-                    m_allSettingData.Add(settingData);
+m_allSettingData.Add(settingData);
                  }
              }
              #endregion    
         }
         public List<SettingsData> GetAllSettingData()
+{
+    LoadAllSettingData();
+
+    return m_allSettingData;
+}
+
+
+public void SiteProductKeyRegisConfiguration GetSiteProductKeyRegisNode()
         {
-            LoadAllSettingData();
+    return m_siteProductKeyRegisNode;
+}
 
-            return m_allSettingData;   
-        }
+public void LoadConfigurationFromIniFile()
+{
+    m_allServicesNodes.Clear();
 
-    
-        public void SiteProductKeyRegisConfiguration GetSiteProductKeyRegisNode()
+    for (int instanceNo = ConfigManager.Instance.INSTATNCE_NUMBER_MIN; instanceNo <= ConfigManager.Instance.INSTATNCE_NUMBER_MAX; instanceNo++)
+    {
+        string serviceName = ConfigManager.Instance.GetServiceNameFromInstanceNo(instanceNo);
+
+        if (ConfigManager.Instance.IsServiceExists(serviceName))
         {
-            return m_siteProductKeyRegisNode;   
-        }
+            ServiceConfiguration service = new ServiceConfiguration(instanceNo);
 
-        public void LoadConfigurationFromIniFile()
-        {
-            m_allServicesNodes.Clear();
-
-            for (int instanceNo = ConfigManager.Instance.INSTATNCE_NUMBER_MIN; instanceNo <= ConfigManager.Instance.INSTATNCE_NUMBER_MAX; instanceNo++)
+            if (service != null)
             {
-                string serviceName = ConfigManager.Instance.GetServiceNameFromInstanceNo(instanceNo);
-
-                if (ConfigManager.Instance.IsServiceExists(serviceName))
-                {
-                    ServiceConfiguration service = new ServiceConfiguration(instanceNo);
-
-                    if (service != null)
-                    {
-                        m_allServicesNodes.Add(service);
-                    }
-                }
-                else
-                {
-                    break;
-                }
+                m_allServicesNodes.Add(service);
             }
         }
-
-        public List<ServiceConfiguration> GetAllServicesNode()
+        else
         {
-            return m_allServicesNodes;
+            break;
         }
+    }
+}
+
+public List<ServiceConfiguration> GetAllServicesNode()
+{
+    return m_allServicesNodes;
+}
 }

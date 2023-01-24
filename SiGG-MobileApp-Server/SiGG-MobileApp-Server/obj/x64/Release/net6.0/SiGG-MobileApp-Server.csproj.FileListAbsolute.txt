@@ -1,0 +1,5 @@
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\x64\Release\net6.0\SiGG-MobileApp-Server.csproj.AssemblyReference.cache
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\x64\Release\net6.0\SiGG-MobileApp-Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\x64\Release\net6.0\SiGG-MobileApp-Server.AssemblyInfoInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\x64\Release\net6.0\SiGG-MobileApp-Server.AssemblyInfo.cs
+D:\LaCasaDePapel\SiGG\SiGG-MobileApp-Server\SiGG-MobileApp-Server\SiGG-MobileApp-Server\obj\x64\Release\net6.0\SiGG-MobileApp-Server.csproj.CoreCompileInputs.cache
