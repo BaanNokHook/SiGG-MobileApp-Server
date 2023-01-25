@@ -9,4 +9,76 @@
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\SiGG-MobileApp-Server.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\SiGG-MobileApp-Server.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net6.0\SiGG-MobileApp-Server.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net6.0\SiGG-MobileApp-Server.GlobalUsings.g.cs" />
+    <Compile Include="obj\x64\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\x64\Debug\net6.0\SiGG-MobileApp-Server.AssemblyInfo.cs" />
+    <Compile Include="obj\x64\Debug\net6.0\SiGG-MobileApp-Server.GlobalUsings.g.cs" />
+    <Compile Include="obj\x64\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.AssemblyInfo.cs" />
+    <Compile Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\SiGG-MobileApp-Server.deps.json" />
+    <Content Include="bin\Debug\net6.0\SiGG-MobileApp-Server.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0\SiGG-MobileApp-Server.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Release\net6.0\SiGG-MobileApp-Server.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\SiGG-MobileApp-Server.csproj.nuget.dgspec.json" />
+    <Content Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\SiGG-MobileApp-Server.dll" />
+    <None Include="bin\Debug\net6.0\SiGG-MobileApp-Server.exe" />
+    <None Include="bin\Debug\net6.0\SiGG-MobileApp-Server.pdb" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\refint\SiGG-MobileApp-Server.dll" />
+    <None Include="obj\Debug\net6.0\ref\SiGG-MobileApp-Server.dll" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.assets.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.dll" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-MobileApp-Server.pdb" />
+    <None Include="obj\Debug\net6.0\_IsIncrementalBuild" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net6.0\SiGG-MobileApp-Server.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net6.0\SiGG-MobileApp-Server.assets.cache" />
+    <None Include="obj\Release\net6.0\SiGG-MobileApp-Server.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net6.0\SiGG-MobileApp-Server.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\net6.0\SiGG-MobileApp-Server.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\SiGG-MobileApp-Server.csproj.nuget.g.props" />
+    <None Include="obj\SiGG-MobileApp-Server.csproj.nuget.g.targets" />
+    <None Include="obj\x64\Debug\net6.0\SiGG-MobileApp-Server.AssemblyInfoInputs.cache" />
+    <None Include="obj\x64\Debug\net6.0\SiGG-MobileApp-Server.assets.cache" />
+    <None Include="obj\x64\Debug\net6.0\SiGG-MobileApp-Server.csproj.AssemblyReference.cache" />
+    <None Include="obj\x64\Debug\net6.0\SiGG-MobileApp-Server.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.AssemblyInfoInputs.cache" />
+    <None Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.assets.cache" />
+    <None Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.csproj.AssemblyReference.cache" />
+    <None Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\x64\Release\net6.0\SiGG-MobileApp-Server.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net6.0\" />
+    <Folder Include="bin\x64\Debug\net6.0\" />
+    <Folder Include="bin\x64\Release\net6.0\" />
+    <Folder Include="obj\Release\net6.0\refint\" />
+    <Folder Include="obj\Release\net6.0\ref\" />
+    <Folder Include="obj\x64\Debug\net6.0\refint\" />
+    <Folder Include="obj\x64\Debug\net6.0\ref\" />
+    <Folder Include="obj\x64\Release\net6.0\refint\" />
+    <Folder Include="obj\x64\Release\net6.0\ref\" />
+  </ItemGroup>
+
 </Project>
