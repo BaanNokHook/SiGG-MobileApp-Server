@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Server
+namespace SiGG_MobileApp_Server.Server
 {
     public class DuplicateOutputAt
     {
