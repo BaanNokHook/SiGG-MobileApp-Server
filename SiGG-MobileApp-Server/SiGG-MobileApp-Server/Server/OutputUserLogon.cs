@@ -22,8 +22,8 @@ namespace SiGG_MobileApp_Server.Server
             m_iniFileMgr = iniFileMgr;
             m_userAccount = userAccount;
             m_isEnableUser = isEnableUser;
-            m_userAccessAllowedListStatus = userAccessAllowedListStatus;  
-            m_userAccessAllowedList = userAccessAllowedList
+            m_userAccessAllowedListStatus = userAccessAllowedListStatus;
+            m_userAccessAllowedList = userAccessAllowedList;
         }
 
         public string GetUserAccount()
