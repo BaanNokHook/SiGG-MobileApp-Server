@@ -320,4 +320,8 @@ namespace SiGG_MobileApp_Server.Server
         }
 
     }
+
+    internal class SettitngData
+    {
+    }
 }
