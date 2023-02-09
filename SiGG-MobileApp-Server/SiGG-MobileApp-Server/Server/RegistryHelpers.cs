@@ -145,5 +145,3 @@ namespace SiGG_MobileApp_Server.Server
         key.SetValue(newKey, GetServerSnmpRegPath(productName));
     }
 }
-
-
