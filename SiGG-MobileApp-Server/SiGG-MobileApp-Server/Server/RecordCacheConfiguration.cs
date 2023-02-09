@@ -31,6 +31,7 @@ namespace SiGG_MobileApp_Server.Server
         {
             string[] strArray = new string[4];
 
+
             strArray[0] = KEY_SIZE;
             strArray[1] = KEY_RE_REQUEST_ENABLE;
             strArray[2] = KEY_RE_REQUEST_TIMEOUT;
